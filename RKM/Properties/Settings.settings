@@ -1,0 +1,52 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RKM.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UserID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Sljuka</Value>
+    </Setting>
+    <Setting Name="CommPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">COM22</Value>
+    </Setting>
+    <Setting Name="BaudRate" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9600</Value>
+    </Setting>
+    <Setting Name="DataBits" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="StopBits" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ParityBits" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">None</Value>
+    </Setting>
+    <Setting Name="ReadTimeOut" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="WriteTimeOut" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="AdminID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">jovisha</Value>
+    </Setting>
+    <Setting Name="SendResponse" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9000</Value>
+    </Setting>
+    <Setting Name="ELBS_ConnString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=87.237.204.173;Initial Catalog=ELBS_2018&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=87.237.204.173;Initial Catalog=ELBS_2018</Value>
+    </Setting>
+    <Setting Name="ELBS_ReklamacijeConnString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=87.237.204.173;Initial Catalog=ELBS_Reklamacije;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=87.237.204.173;Initial Catalog=ELBS_Reklamacije;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
