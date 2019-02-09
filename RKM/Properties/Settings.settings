@@ -35,18 +35,18 @@
     <Setting Name="ELBS_ConnString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=87.237.204.173;Initial Catalog=ELBS_2018&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Data Source=87.237.204.173;Initial Catalog=ELBS_2019&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=87.237.204.173;Initial Catalog=ELBS_2018</Value>
+      <Value Profile="(Default)">Data Source=87.237.204.173;Initial Catalog=ELBS_2019</Value>
     </Setting>
     <Setting Name="ELBS_ReklamacijeConnString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=87.237.204.173;Initial Catalog=ELBS_Reklamacije;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Data Source=87.237.204.173;Initial Catalog=ELBS_Reklamacije; User Id = elbraco; Password=elbsNK&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=87.237.204.173;Initial Catalog=ELBS_Reklamacije;Integrated Security=True</Value>
+      <Value Profile="(Default)">Data Source=87.237.204.173;Initial Catalog=ELBS_Reklamacije; User Id = elbraco; Password=elbsNK</Value>
     </Setting>
   </Settings>
 </SettingsFile>
